@@ -120,7 +120,7 @@ nav {
             }
 
             &:hover:not(&--active) {
-                --layout-opacity: 0.3;
+                --layout-opacity: 0.4;
                 cursor: pointer;
             }
 
@@ -129,6 +129,7 @@ nav {
                 position: absolute;
                 inset: 0;
                 background: var(--md-sys-color-secondary-container);
+                transition: opacity 0.3s linear;
                 border-radius: 28px;
                 opacity: var(--layout-opacity, 0);
             }
